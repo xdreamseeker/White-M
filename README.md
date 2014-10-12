@@ -1,7 +1,7 @@
 White-M For Typecho
 =======
 
-![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
+![image](http://microhu.u.qiniudn.com/microimg/usr/uploads/2014/09/2173393176.jpg)
 
 白色宽版主题，简约而不简单！
 
