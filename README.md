@@ -1,4 +1,4 @@
-White-M For Typecho
+White-M Theme For Typecho
 =======
 
 ![image](http://microhu.u.qiniudn.com/microimg/usr/uploads/2014/09/2173393176.jpg)
