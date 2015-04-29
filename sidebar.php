@@ -1,12 +1,7 @@
     <div class="right">
       <form id="search" method="post" action="/">
-<input type="text" name="s" class="text" size="20" x-webkit-speech x-webkit-grammar="builtin:search" onwebkitspeechchange="this.value = this.value.replace(this.defaultValue, '')" value="To search type and hit enter" onfocus="this.value = (this.value == this.defaultValue) ? '' : this.value" onblur="this.value = (this.value == '') ? this.defaultValue : this.value" />
+          <input type="text" name="s" class="text" size="20" placeholder="搜索..." />
       </form>
-<?php if ($this->options->rssDisplay == 'display'): ?>
-<?php if($this->is('index')): ?>
-<a href="<?php if ($this->options->rssUrl): ?><?php $this->options->rssUrl() ?><?php else : ?><?php $this->options->feedUrl(); ?><?php endif; ?>" title="立即订阅<?php $this->options->title() ?>"><div class="rss_index">订阅<?php $this->options->title() ?>&nbsp;RSS</div></a>
-<?php endif; ?>
-<?php endif; ?>
 	  <?php if (empty($this->options->sidebarBlock) || in_array('ShowHotPosts', $this->options->sidebarBlock)): ?>
       <h5><?php _e('热门文章'); ?></h5>
       <ul>
@@ -54,3 +49,4 @@
 	  <?php endif; ?>
 	  <?php endif; ?>
     </div>
+</div>
