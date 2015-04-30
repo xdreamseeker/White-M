@@ -237,14 +237,6 @@ a:hover {
 	border:solid 1px #e6e6e6;
 	padding:5px;
 }
-.more a {
-	width:116px;
-	display:block;
-	background:#0088CC;
-	color:#fff;
-	text-align:center;
-	line-height:30px;
-}
 .tag a {
 	margin:0px 5px;
 }
@@ -519,9 +511,7 @@ input:focus,textarea:focus {
 	margin-top:0;
 	font-size:100%;
 }
-.more {
-	float:right;
-}
+
 /* 引用样式 */
 
 blockquote {

@@ -19,7 +19,7 @@
         <h2><a href="<?php $this->permalink() ?>"><?php $this->sticky(); $this->title() ?></a></h2>
         <p class="entry_data">发布时间：<?php $this->date('Y年n月j日'); ?> / 分类：<?php $this->category(','); ?> / <?php Views_Plugin::theViews('', ' 次围观'); ?> / <a href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum('抢沙发！', '一次吐槽', '%d 次吐槽'); ?></a></p>
         <div class="list-content">
-          <?php $this->content('- 阅读剩余部分 -'); ?>
+          <?php $this->excerpt(110, '...'); ?>
         </div>
       </div>
 	    <?php endwhile; ?>
